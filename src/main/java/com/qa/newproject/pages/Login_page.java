@@ -33,7 +33,7 @@ public class Login_page {
 		public String getLoginPageTitle() {
 			String title=eleutil.waitFotTitleIs(LOGIN_PAGE_TITLE, DEFAULT_TIMEOUT);
 		
-			System.out.println("Login Page Title"+ title);
+			System.out.println("Login Page Title..."+ title);
 			return title;
 			}
 		
